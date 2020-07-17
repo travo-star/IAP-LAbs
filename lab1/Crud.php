@@ -4,15 +4,16 @@ interface Crud{
 
 
     public function save();
-    public static function readAll();
+    public function readAll();
     public function readUnique();
     public function search();
     public function update();
     public function removeOne();
     public function removeAll();
-
+//lab2
     public function validateForm();
     public function createFormErrorSessions();
+    public function isUserExist();
 
 }
 
